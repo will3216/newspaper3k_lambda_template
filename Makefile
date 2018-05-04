@@ -47,11 +47,11 @@ build.start: clean
 	echo "Now run:\n\tssh lambda_builder\n\tcd ~/newspaper3k_lambda_template\n\tmake build_base\n\texit\n\tmake build.continue"
 
 build.continue:
-	scp -rp lambda_builder:~/lambda_lambda/base.zip ./lib/base.zip
+	scp -rp lambda_builder:~/newspaper3k_lambda_template/base.zip ./lib/base.zip
 
 build:
 	-rm -rf ./build
 	mkdir ./build
-	cp ./lib/base.zip ./build/lambda.zip
-	cp ./lib/lambda.py ./build/lambda.py
-	cd build && zip -u lambda.zip ./lambda.py
+	cp ./lib/base.zip ./build/newspaper_lambda.zip
+	cp ./lib/newspaper_lambda.py ./build/newspaper_lambda.py
+	cd build && zip -u newspaper_lambda.zip ./newspaper_lambda.py

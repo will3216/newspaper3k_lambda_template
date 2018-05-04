@@ -9,11 +9,11 @@ make test
 ```
 
 ## Building
-To build your deployment package, make whatever changes you want to make to lambda.py and run:
+To build your deployment package, make whatever changes you want to make to newspaper_lambda.py and run:
 ```
 make build
 ```
-This will move the primary script `./lib/lambda.py` to the build directory along with its dependencies and then package them with zip into `./build/lambda.zip` this zip will then be in the correct format for pushing to aws!
+This will move the primary script `./lib/newspaper_lambda.py` to the build directory along with its dependencies and then package them with zip into `./build/newspaper_lambda.zip` this zip will then be in the correct format for pushing to aws!
 
 Now you're development jigsaw environment should be able to access your function!
 
