@@ -1,5 +1,5 @@
 # newspaper3k_lambda_template
-This provides a template for creating a lambda function using newspaper3k without needing to deal with the pain of actually doing it yourself. Just change ./lib/lambda.py to whatever you need and run `make build` if you need additional dependencies, however, see below. Hopes this saves someone some time!
+This provides a template for creating a lambda function using newspaper3k without needing to deal with the pain of actually doing it yourself. Just change the contents of ./lib/lambda.py to whatever you need and run `make build` as the specified dependencies are already pre-built in ./lib/base.zip. If you need additional dependencies, however, see below. Hopes this saves someone some time!
 
 
 ## Testing
