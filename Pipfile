@@ -5,7 +5,6 @@ name = "pypi"
 
 [packages]
 "newspaper3k" = "*"
-"boto3" = "*"
 
 [dev-packages]
 nose = "*"
