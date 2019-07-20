@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 "newspaper3k" = "*"
+pythainlp = "*"
 
 [dev-packages]
 nose = "*"
